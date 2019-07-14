@@ -21,11 +21,11 @@ $(function(){
                 $("#paddleB").css("top",top+5);
                 break;
             case KEY.W:
-                var top = parseInt($("#paddleB").css("top"));
+                var top = parseInt($("#paddleA").css("top"));
                 $("#paddleA").css("top",top-5);
                 break;
             case KEY.S:
-                var top = parseInt($("#paddleB").css("top"));
+                var top = parseInt($("#paddleA").css("top"));
                 $("#paddleA").css("top",top+5);
                 break;
         }
